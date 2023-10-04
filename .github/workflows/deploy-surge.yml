@@ -17,6 +17,5 @@ jobs:
 
     - name: Installing surge
       run: npm install --global surge
-
-    - name: Deploy to Surge
-      run: surge https://envious-brother.surge.sh/ --token fb18b1b0084ca4dd8551b42d638bd08b
+           surge token fb18b1b0084ca4dd8551b42d638bd08b
+           surge --project ./ --domain https://envious-brother.surge.sh/ 
