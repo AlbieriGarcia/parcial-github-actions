@@ -1,0 +1,19 @@
+body {
+    background-color: #0f9999;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 4rem;
+    color: #dfdfdf;
+}
+h2 {
+    font-size: 2rem;
+    color: #000;
+}
+.github {
+    width: 10%;
+}
+.surge {
+    width: 20%;
+}
