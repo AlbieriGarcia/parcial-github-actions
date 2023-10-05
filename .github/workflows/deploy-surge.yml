@@ -22,4 +22,4 @@ jobs:
       run: echo "fb18b1b0084ca4dd8551b42d638bd08b" > ./surge-token
 
     - name: Deploy to Surge
-      run: surge --project ./ --token $(cat ./surge-token) --domain https://envious-brother.surge.sh/
+      run: surge --project ./ --token ${{ secrets.SOURGE_KEY }} --domain https://envious-brother.surge.sh/
