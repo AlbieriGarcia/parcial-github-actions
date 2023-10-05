@@ -11,6 +11,9 @@ h2 {
     font-size: 2rem;
     color: #000;
 }
+main h2{
+    color: #dfdfdf;
+}
 .github {
     width: 10%;
 }
